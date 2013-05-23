@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<title>Better Parking</title>
-		<link rel="stylesheet" type="text/css" href="estilo.css">
+		<link rel="stylesheet" type="text/css" href="css/estilos.css">
 	</head>
 	<body>
 		<div id="header" style="width: 800px; margin: auto;">
