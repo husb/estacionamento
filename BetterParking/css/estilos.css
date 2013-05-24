@@ -1,22 +1,32 @@
 body{
 	font-family: Verdana;
 	font-size: 12px;
-	background-color: #04002B;
+	background-color: #000000;
 }
 #cadastro{
+	font-size: 20px;
 	border: 0px solid black;
-	width: 220px;
+	width: 380px;
     color: white;
 	margin: auto;
-	margin-top:200px;
+	margin-top: 90px;
+}
+#usuario, #senha{
+	padding: 6px 2px;
+	font-size: 20px;
+	width: 265px;
+}
+#entrar{
+	padding: 6px 18px;
+	font-size: 20px;
 }
 label{
 	display: inline-block;
-	width: 55px;
+	width: 90px;
 }
 .titulo{
 	text-transform: uppercase;
-	border-bottom: 1px dotted #EDA933;//dotted pontilhada bottom borda só embaixo
+	border-bottom: 2px dotted #007FFF;//dotted pontilhada bottom borda só embaixo
 	padding-bottom: 4px;
 	margin-bottom: 8px;
 }
@@ -26,7 +36,7 @@ label{
 	padding-right: 2px;
 }
 .botao {
-	background-color:#f6b33d;
+	background-color:#007FFF;
 	border:1px solid #eda933;
 	display:inline-block;
 	color:#ffffff;
@@ -43,10 +53,10 @@ label{
 	top:1px;
 }
 #conteudo{
-	background-color: #FFFFFF;
 	margin: 15px auto;
 	padding: 5px 10px;
 	width: 800px;
+	text-align: center;
 }
 
 .itens{
