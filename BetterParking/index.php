@@ -1,3 +1,7 @@
+<?php 
+	include 'conexao/conexao.php';
+?>
+
 <!DOCTYPE html>
 <html>
 	<head>
