@@ -1,0 +1,26 @@
+.esq, .dir{
+	width: 350px;
+}
+.painel{
+	margin: 30px auto;
+	width: 700px;
+}
+.esq{
+	border: 0px solid black;
+	float: left;
+}
+.dir{
+	border: 0px solid black;
+	float: left;
+}
+.controles label{
+	display: inline-block;
+	width: 130px;
+}
+.controles input[type="text"]{
+	width: 180px;
+}
+
+.texto-centro{
+	text-align: center;
+}

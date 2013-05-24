@@ -13,15 +13,17 @@
 		</div>
 		<div id="cadastro">
 				<div class="titulo"><span>Login</span></div>
-				<form id="cadastrado" method="get">
+				
+				<form id="cadastrado" method="post" action="arquivos/login.process.php">
 					<label for="usuario">Usuário</label>
-					<input type="text" name="usuario" id="usuario" />
+					<input type="text" name="usuarioLogin" id="usuario" />
 					<br />
 					<label for="senha">Senha</label>
-					<input type="password" name="senha" id="senha" />
+					<input type="password" name="senhaLogin" id="senha" />
 					<br />
 					<div style="text-align: right;"><input class="botao" type="submit" name="entrar" id="entrar" value="Entrar" /></div>
 				</form>
+				
 			</div>
 	</body>
 </html>

@@ -1,0 +1,1 @@
+INSERT INTO `better`.`b_usuario` (`u_id`, `u_tipo`, `u_nome`, `u_sobrenome`, `u_login`, `u_senha`) VALUES (NULL, 'admin', 'admin', 'admin', 'admin', 'admin');
