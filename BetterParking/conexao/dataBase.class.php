@@ -53,16 +53,16 @@ class DataBase {
 	 * @param unknown $prop
 	 * @param unknown $value
 	 */
-	function set($propriedade, $value) {
-		$this->$propriedade = $value;
+	function set($prop, $value) {
+		$this->$prop = $value;
 	}
 	
 	/**
 	 * getter genérico
 	 * @param unknown $prop
 	 */
-	function get($propriedade) {
-		return $this->$propriedade;
+	function get($prop) {
+		return $this->$prop;
 	}
 }
 	
